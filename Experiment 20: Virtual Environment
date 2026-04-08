@@ -1,0 +1,6 @@
+COMMANDS:
+python -m venv myenv
+myenv\Scripts\activate
+
+
+OUTPUT: Environment activated.
