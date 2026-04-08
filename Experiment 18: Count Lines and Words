@@ -1,0 +1,17 @@
+with open("test.txt") as f:
+data=f.read()
+
+print("Lines:",data.count("\n")+1)
+print("Words:",len(data.split()))
+
+
+
+# If test.txt contains::
+Hello world
+Python is easy
+
+
+
+#output:
+Lines: 2
+Words: 5
