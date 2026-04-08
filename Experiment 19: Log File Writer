@@ -1,0 +1,5 @@
+with open("log.txt","a") as f:
+msg=input("Enter log: ")
+f.write(msg+"\n")
+
+#OUTPUT: Message saved in log file.
